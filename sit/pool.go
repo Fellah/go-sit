@@ -21,18 +21,18 @@ package sit
 // // resources pool.
 // const NetBaseName = "go-sit"
 
-// // Pool of resources to launch for system integration testing.
-// type Pool struct {
-// 	DockerClient *client.Client
-// 	Resources    []*resource
+// Pool of resources to launch for system integration testing.
+type Pool struct {
+	// 	DockerClient *client.Client
+	// 	Resources    []*resource
 
-// 	authCfgs map[string]types.AuthConfig
-// 	authStrs map[string]string
+	// 	authCfgs map[string]types.AuthConfig
+	// 	authStrs map[string]string
 
-// 	uniquePostfix string
-// 	networkID     string
-// 	rulerCtrID    string
-// }
+	// 	uniquePostfix string
+	// 	networkID     string
+	// 	rulerCtrID    string
+}
 
 // NewPool creates pool of resources.
 // Pool requires unique postfix to avoid naming collisions among Docker
