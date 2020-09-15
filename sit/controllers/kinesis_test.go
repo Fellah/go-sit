@@ -10,9 +10,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lucidhq/go-sit/sit/controllers"
-	"github.com/lucidhq/go-sit/sit/controllers/mocks"
-	"github.com/lucidhq/go-sit/sit/events"
+	"github.com/Fellah/go-sit/sit/sit/controllers"
+	"github.com/Fellah/go-sit/sit/sit/controllers/mocks"
+	"github.com/Fellah/go-sit/sit/sit/events"
 )
 
 //go:generate mockgen -package=mocks -destination=./mocks/kinesisapi.go github.com/aws/aws-sdk-go/service/kinesis/kinesisiface KinesisAPI

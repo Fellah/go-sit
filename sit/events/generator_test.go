@@ -7,7 +7,7 @@ import (
 	"github.com/streadway/handy/atomic"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lucidhq/go-sit/sit/events"
+	"github.com/Fellah/go-sit/sit/events"
 )
 
 func TestEventGenerator(t *testing.T) {

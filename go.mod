@@ -1,4 +1,4 @@
-module github.com/lucidhq/go-sit
+module github.com/Fellah/go-sit/sit
 
 go 1.15
 
