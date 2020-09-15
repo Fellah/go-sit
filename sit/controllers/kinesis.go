@@ -10,7 +10,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/kinesis/kinesisiface"
 	"github.com/pkg/errors"
 
-	"github.com/lucidhq/go-sit/sit/events"
+	"github.com/Fellah/go-sit/sit/events"
 )
 
 const partitionKey = "partition-key"

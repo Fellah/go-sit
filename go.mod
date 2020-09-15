@@ -1,4 +1,4 @@
-module github.com/Fellah/go-sit/sit
+module github.com/Fellah/go-sit
 
 go 1.15
 
