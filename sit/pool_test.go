@@ -18,7 +18,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Fellah/go-sit/sit/sit"
+	"github.com/Fellah/go-sit/sit"
 )
 
 const (
